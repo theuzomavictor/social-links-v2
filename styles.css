@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Outfit", serif;
+    text-align: center;
+    padding: 0px 30px;
+    color: #302d2c;
+    font-size: 18px;
+}
+
+p {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    color: #676057;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+span p {
+    color: #854632;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-item p {
+    text-decoration: none;
+    background-color: #854632;
+    margin: 0px 50px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.links {
+    margin: 20px;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
+.a-foot {
+    color: #676057;
+}
