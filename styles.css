@@ -15,12 +15,12 @@ body {
     align-items: center;
 }
 
-h2 {
+h1 {
     font-family: "Outfit", serif;
     text-align: center;
     padding: 0px 30px;
     color: #302d2c;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 p {
